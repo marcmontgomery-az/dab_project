@@ -1,6 +1,6 @@
 import sys
 
-from src.citibike.citibike_utils import get_trip_duration_mins
+from citibike.citibike_utils import get_trip_duration_mins
 from utils.datetime_utils import timestamp_to_date_col
 from pyspark.sql.functions import create_map, lit
 

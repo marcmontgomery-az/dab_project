@@ -41,8 +41,10 @@ targets:
       catalog: citibike_test
       dev_flag: false
     permissions:
-      - user_name: marcmontgomery_az@outlook.com
+      - service_principal_name: c08eb488-8b5b-439d-969d-32bfbbe82cfb
         level: CAN_MANAGE
+    run_as:
+      service_principal_name: c08eb488-8b5b-439d-969d-32bfbbe82cfb
   prod:
     mode: production
     workspace:
